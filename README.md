@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# UGC Flywheel - Landing Page
+
+A premium, dark-themed landing page for UGC Flywheel powered by Triibe Talents. Built with Next.js 14+, Tailwind CSS, and Framer Motion.
+
+## Features
+
+- **Loading Animation**: Full-screen animated wordmark that fades out to reveal content
+- **Hero Section**: Bold headline with animated counter showing creators trained, three CTAs (Whop, Typeform, Calendly)
+- **Brand Marquee**: Infinite-scroll carousel for brand logos (placeholder spots ready)
+- **VSL Section**: Custom-styled YouTube video embed with gold accent play button
+- **Testimonials**: 6 creator testimonial cards with ratings and achievement badges
+- **Directors Section**: Profile cards for Jaden Versluis and Brian Wallack
+- **FAQ Accordion**: Animated accordion with 5 questions
+- **Footer**: Final CTAs, contact emails, and social links
+
+## Design System
+
+- **Theme**: Dark & Bold with premium gold accents
+- **Primary Background**: #0A0A0A to #121212
+- **Accent Color**: Gold gradient (#D4AF37 to #FFD700)
+- **Typography**: Bebas Neue (display), DM Sans (body), Space Mono (stats)
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Build for production
+npm run build
+
+# Start production server
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## External Links
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+| Purpose | URL |
+|---------|-----|
+| Whop Community | https://whop.com/checkout/plan_CQEyhzLHHXd81 |
+| Qualification Form | https://form.typeform.com/to/XGz0agvh |
+| Brand Booking | https://calendly.com/jaden-triibetalents/triibe-1on1-coaching-call |
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Placeholder Content
 
-## Learn More
+The following items need to be replaced with real content:
 
-To learn more about Next.js, take a look at the following resources:
+- [ ] Brand logos in `/public/images/brands/`
+- [ ] YouTube video ID in `VideoSection.tsx`
+- [ ] Creator testimonial photos in `/public/images/testimonials/`
+- [ ] Director headshots in `/public/images/directors/`
+- [ ] Actual creator count in `Hero.tsx`
+- [ ] FAQ answers (currently using placeholder text)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contact
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Brian Wallack: brian@triibetalents.com
+- Jaden Versluis: jaden@triibetalents.com
 
-## Deploy on Vercel
+## Tech Stack
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [Next.js 14+](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [Lucide React](https://lucide.dev/)
