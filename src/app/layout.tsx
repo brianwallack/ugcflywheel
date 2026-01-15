@@ -29,6 +29,9 @@ export const metadata: Metadata = {
     description: "Turn Content Into Paid UGC, Or Get Every Dollar Back",
     type: "website",
   },
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export const viewport: Viewport = {
